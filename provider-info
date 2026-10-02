@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プロバイダー情報 | きゅーの</title>
+
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    background: linear-gradient(160deg, #0e3e5c 0%, #061c2c 100%);
+    color: #ffffff;
+    padding: 32px 20px;
+  }
+  .card {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0 0 32px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 16px;
+    margin: 28px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+  p {
+    line-height: 1.8;
+    opacity: 0.9;
+    margin: 0 0 16px;
+    font-size: 14px;
+  }
+  ul {
+    margin: 12px 0;
+    padding-left: 24px;
+  }
+  li {
+    line-height: 1.8;
+    opacity: 0.9;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  .back-link {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 12px 24px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    transition: background 0.2s ease;
+  }
+  .back-link:hover {
+    background: rgba(255,255,255,0.15);
+  }
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 12px;
+    opacity: 0.6;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>プロバイダー情報</h1>
+
+    <h2>サービス概要</h2>
+    <p>
+      「きゅーの」は、沖縄の旧暦行事（1日・15日のヒヌカン拝みなど）をLINEでリマインドするサービスです。毎月1日・15日の前日と当日に、LINEでお知らせを配信します。
+    </p>
+
+    <h2>運営者情報</h2>
+    <p>
+      <strong>開発・運営者：</strong>個人開発
+    </p>
+
+    <h2>プライバシーポリシー</h2>
+    <p>
+      本サービスでは、LINE プラットフォームを通じて以下の情報を取得します：
+    </p>
+    <ul>
+      <li>LINE ユーザーID</li>
+      <li>配信イベント（リマインド送信の記録）</li>
+    </ul>
+    <p>
+      <strong>情報の取り扱い：</strong>
+    </p>
+    <ul>
+      <li>取得した情報は、サービス運用のみに使用します</li>
+      <li>情報を第三者に提供または販売することはありません</li>
+      <li>取得した情報をサービス改善の目的で分析することがあります</li>
+    </ul>
+    <p>
+      詳細は LINE の プライバシーポリシーもご参照ください。
+    </p>
+
+    <h2>利用規約</h2>
+    <ul>
+      <li>本サービスは個人開発による無償サービスです</li>
+      <li>動作の完全性や正確性を保証いたしません</li>
+      <li>予告なくサービスを終了または変更する可能性があります</li>
+      <li>本サービスの利用により生じたいかなる損害についても、運営者は責任を負いません</li>
+      <li>家庭や地域により旧暦行事の作法が異なる場合があります。本サービスの情報を参考にされる際は、ご家庭の作法に従ってください</li>
+    </ul>
+
+    <h2>お問い合わせ</h2>
+    <p>
+      本サービスについてのお問い合わせ・ご質問は、LINE チャットからお願いします。
+    </p>
+
+    <div style="text-align: center;">
+      <a class="back-link" href="./">← トップページに戻る</a>
+    </div>
+
+    <div class="footer">
+      <p>Last updated: 2026年10月</p>
+    </div>
+  </div>
+</body>
+</html>
